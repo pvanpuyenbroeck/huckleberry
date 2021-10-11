@@ -7,6 +7,78 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 1.25rem;
 }
 
-/* Add styles here! */
+strong{
+  color: hsl(160deg, 100%, 30%);
+}
+
+h1{
+  font-size: 2rem;
+}
+
+.intro-chunk{
+  max-width: 450px;
+}
+
+section h2{
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 6px solid hsl(45deg, 100%, 40%);
+  padding: 16px 16px 16px 0;
+  max-width: 350px;
+  margin-left: -16px;
+  padding-left: 16px;
+  margin-block-start: 0;
+  font-size:1.2rem;
+}
+
+body{
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+header, section{
+  padding: 16px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+  margin-bottom: 64px;
+}
+
+main{
+  background-color: white;
+}
+
+section{
+padding-top:1px;
+}
+
+.card{
+  padding: 8px 0;
+}
+main p{
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.intro-chunk{
+  /* height: 90%; */
+}
+
+@media screen and (min-width: 400px) {
+  
+  section h2{
+    max-width: 450px;
+  }
+}
+
+@media screen and (min-width:900px) {
+  header .max-width-wrapper, main{
+    margin:0 auto;
+    width: 65%
+  }
+
+  section h2{
+    margin-left: -32px;
+  }
+}
